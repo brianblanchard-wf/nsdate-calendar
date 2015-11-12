@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
 		     :tag => s.version.to_s}
   s.platform     = :ios
   s.source_files = 'Pod/**/*.{h,m}'
+  s.public_header_files = 'Pod/NSDate+Calendar.h'
   s.ios.deployment_target = "5.0"
   s.osx.deployment_target = "10.7"
   s.requires_arc = true
