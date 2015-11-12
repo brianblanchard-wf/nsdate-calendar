@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/belkevich/nsdate-calendar.git",
 		     :tag => s.version.to_s}
   s.platform     = :ios
-  s.source_files = 'Pod/**/*.{h,m}'
+  s.source_files = 'Pod/*.{h,m}'
   s.public_header_files = 'Pod/NSDate+Calendar.h'
   s.ios.deployment_target = "5.0"
   s.osx.deployment_target = "10.7"
